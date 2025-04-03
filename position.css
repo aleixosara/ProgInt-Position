@@ -1,0 +1,31 @@
+/*  
+    static: fica fixo, estático, indepente do que você colocou (?)
+    absolute: segue as medidas que você colocou
+    relative:
+    fixed: fica fixo no fim da página(?)
+    sticky:
+*/
+
+.main-element {
+    position: sticky;
+    left: 10px;
+    top: 10px;
+    background-color:rgb(255, 217, 0);
+    padding: 10px;
+}
+
+.parent-element {
+    position: relative;
+    height: 1000px;
+    padding: 50px 10px;
+    background-color: #81adc8;
+}
+
+.sibling-element {
+    padding: 10px;
+    background-color: beige;
+}
+
+html {
+    height: 800px;
+}
